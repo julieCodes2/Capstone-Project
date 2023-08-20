@@ -1,0 +1,40 @@
+/* 
+start CSS Media Query for Landscape Orientation */
+@media screen and (max-device-width: 767px) and (orientation: landscape) {
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .visible-desktop {
+    display: none !important;
+  }
+  .visible-phone {
+    display: inherit !important;
+  }
+  .hidden-phone {
+    display: none !important;
+  }
+
+  #carouselExampleAutoplaying{
+    height:100%;
+  }
+}
+/* 
+end CSS Media Query for Landscape Orientation */
+
+/* start CSS Media Query for Portrait Orientation */
+@media screen and (max-device-width: 767px) and (orientation: portrait) {
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .visible-desktop {
+    display: none !important;
+  }
+  .visible-phone {
+    display: inherit !important;
+  }
+  .hidden-phone {
+    display: none !important;
+  }
+}
+/* end CSS Media Query for Portrait Orientation */
+hay

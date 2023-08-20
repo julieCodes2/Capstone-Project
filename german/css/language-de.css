@@ -1,0 +1,121 @@
+
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap);
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+/* body{
+   font-family: 'Montserrat', sans-serif;
+   color: #333;
+}
+ */
+.language{
+/*     position:relative; */
+margin:0;
+padding:0;
+}
+ 
+/* *{
+    box-sizing: border-box;
+} */
+
+a {
+    text-decoration: none;
+}
+/* header {
+    height:110px;
+    padding:10px 0;
+} */
+
+/* .logo{
+    width: 100px;
+}
+.logo img {
+    width: 100px;
+} */
+
+
+/* nav {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+} */
+
+.lang-menu {
+    margin-top:25px;
+    position:relative;
+    float:left;
+    
+}
+.selected-lang{
+    cursor:pointer;
+    display:flex;
+        justify-content: space-between;
+        line-height:2;
+ width:100px;
+
+}
+.selected-lang:before{
+    content: '';
+    display:flex;
+    width:40px;
+    height:32px;
+    background-image: url('../images/germany.png');
+    background-size: cover;
+}
+.lang-menu ul {
+    margin: 0;
+    padding:0;
+    background-color: #fff;
+    border: 1px solid #f8f8f8;
+    box-shadow:0px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display:none;
+    position: absolute;
+    top:40px;
+    left:0;
+   
+}
+.lang-menu ul li {
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+}
+
+.lang-menu ul li a{
+    width: 140px;
+    display:contents;
+    padding:5px 10px;
+}
+
+.lang-menu ul li a:before{
+     content: '';
+    display: inline-block;
+    width:32px;
+    height:32px;
+    margin-right: 10px;
+    vertical-align: middle;
+  /*   background-image: url(../images/germany.png); */
+    background-size: cover;
+}
+
+.lang-menu ul li a:hover{
+background-color: #f2f2f2;
+}
+/*  .de:before{
+    background-image: url(../images/germany.png);
+}
+
+
+.us:before{
+    background-image: url(../images/usa.jpg);
+} 
+ */
+
+.lang-menu:hover ul{
+display:contents;
+}
+
+/* .lang-menu{
+    float: right;
+} */
