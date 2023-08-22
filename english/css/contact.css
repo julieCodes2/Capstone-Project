@@ -88,7 +88,7 @@ nav #icon{
 }
 
 section{
-    background: url(../images/residenzoriginal.jpg) no-repeat;
+    background: url(../images/starrynight.jpg) no-repeat;
     background-size: cover;
   height: calc(100vh - 80px); 
  
@@ -207,11 +207,12 @@ background-color: #ffffff;
 }
 
 .designer{
-    opacity: 0.7;
+    opacity: 0.9;
   /*   text-transform: uppercase; */
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0px 5px;
+      font-family: "Apple Chancery", cursive;
 }
 
 /* footer ends here */
@@ -312,7 +313,7 @@ nav li{
     background-color: #BFA980;
 }
 nav a{
-    font-size: 20px;
+    font-size: 14px;
     color:#212b40;
     font-weight:bold;
 }
@@ -323,16 +324,31 @@ a.active,a:hover{
 nav ul.show{
     left:0;
 }
+
+section{
+    background-position:center;
+    
+    
+}
+.formcontainer{
+    align-items: center;
+    width:100%;
+    margin-right: 0;
+    height: 100vh;
+}
+.navbar-brand {
+    font-size: 14px;
+}
 }
 
 /* responsive for footer*/
-@media(max-width: 767px){
-    .footer-col{
+@media(max-width: 909px){
+  /*   .footer-col{
         width: 50%;
         margin-bottom: 30px;
-    }
+    } */
 }
-@media(max-width: 574px){
+@media(max-width: 909px){
     .footer-col {
         width: 100%;
     }

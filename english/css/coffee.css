@@ -272,7 +272,7 @@ nav #icon{
 }
 
 section{
-    background: url(../images/wuerzburgcity.jpg) no-repeat;
+    background: url(../images/spacex.jpg) no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
 }
@@ -402,15 +402,13 @@ background-color: #ffffff;
 }
 
 .designer{
-    opacity: 0.7;
-/*     text-transform: uppercase; */
+    opacity: 0.9;
+  /*   text-transform: uppercase; */
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0px 5px;
-  
-
-    
-    
+      font-family: "Apple Chancery", cursive;
+      padding-bottom: 10px;
 }
 
 
@@ -550,7 +548,7 @@ nav li {
      background-color: #BFA980;
 }
 nav a{
-    font-size: 20px;
+    font-size: 14px;
      color:#212b40;
     font-weight:bold;
 }
@@ -568,10 +566,10 @@ nav ul.show{
    padding:0;
 }
 .logos{
-    width:auto;
+    width:100%;
 }
 .cup{
-    width:70%;
+    width:100%;
 }
 
 .formcontainer{
@@ -590,6 +588,15 @@ nav ul.show{
     padding-left: 0;
     margin-left:-20px;
     text-align: center;
+}
+
+section{
+    background-position:center;
+    background-image: cover;
+    
+}
+.navbar-brand {
+    font-size: 14px;
 }
 }
 

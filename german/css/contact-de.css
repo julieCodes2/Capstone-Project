@@ -89,9 +89,10 @@ nav #icon{
 }
 
 section{
-    background: url(../images/residenzoriginal.jpg) no-repeat;
+    background: url(../images/centerpink.jpg) no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
+     background-position: center
 }
 /*main ends starts here */
 
@@ -206,11 +207,12 @@ background-color: #ffffff;
 }
 
 .designer{
-    opacity: 0.7;
+    opacity: 0.9;
    /*  text-transform: uppercase; */
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0px 5px;
+      font-family: "Apple Chancery", cursive;
 }
 
 /* footer ends here */
@@ -311,7 +313,7 @@ nav li{
     background-color: #BFA980;
 }
 nav a{
-    font-size: 20px;
+    font-size: 14px;
     color:#212b40;
     font-weight:bold;
 }
@@ -322,6 +324,15 @@ a.active,a:hover{
 nav ul.show{
     left:0;
 }
+section{
+    background-position: center;
+}
+
+ .navbar-brand{
+  font-size: 14px;
+}
+
+
 }
 
 /* responsive for footer*/

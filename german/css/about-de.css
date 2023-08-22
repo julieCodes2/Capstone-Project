@@ -1,3 +1,7 @@
+li {
+    list-style: square;
+}
+
 
 
 #particles-js{
@@ -93,16 +97,19 @@ nav #icon{
 }
 
 section{
-    background: url(../images/wuerzburgcity.jpg) no-repeat;
+    background: url(../images/astronaut.jpg) no-repeat;
     background-size: cover;
-    height: calc(100vh - 80px);
+    background-position: center;
+
  
 }
 
 
 
 .card-header{
-  background-color: #BFA980;
+  background-color: #bfa980;
+    opacity: 0.8;
+ 
 }
 
 
@@ -217,12 +224,12 @@ background-color: #ffffff;
 }
 
 .designer{
-    opacity: 0.7;
+    opacity: 0.9;
     /* text-transform: uppercase; */
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0px 5px;
- 
+   font-family: "Apple Chancery", cursive;
 }
 
 
@@ -251,6 +258,9 @@ background-color: #ffffff;
 /* for smaller devices */
 @media (max-width:909px){
 
+   /*  .card-text{
+        margin-left: 10px;
+    } */
 
      nav{
         padding-left:20px;
@@ -276,7 +286,7 @@ nav li{
       background-color: #BFA980;
 }
 nav a{
-    font-size: 20px;
+    font-size: 14px;
        color:#212b40;
     font-weight:bold;
 }
@@ -287,6 +297,9 @@ a.active,a:hover{
 nav ul.show{
     left:0;
 }
+
+ .navbar-brand{
+  font-size: 14px;
 }
 /* responsive for footer*/
 @media(max-width: 767px){
@@ -299,29 +312,9 @@ nav ul.show{
     .footer-col {
         width: 100%;
     }
-
+}
     
 }
 
 /* ends here */
  
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-}
-
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-}
