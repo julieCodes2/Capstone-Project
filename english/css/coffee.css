@@ -601,3 +601,82 @@ section{
 }
 
 
+
+/*  
+MEDIA QUERIES!!! */
+@media (max-width:480px){
+    /* if a width of a device is smaller than 480px mobile devices; until 480 blue sya*/
+h1 {
+        color: blue;
+
+    }
+ 
+    .cup{
+        width: 80%;
+    }
+}
+
+
+
+  @media (min-width:481px) and (max-width:768px){
+  /*   ipads,tablets; pag nag 481 green na sya */
+  h1 {
+        color: green;
+    }
+     .cup{
+        width: 85%;
+    }
+
+   *{
+   width:auto;
+   padding-right:0;
+   margin-right:0;
+   }
+}
+ 
+
+   @media (min-width:769px) and (max-width:1024px){
+  /*   small screens,laptops, pag nag 769 brown na sya */
+   h1 {
+        color: brown;
+    }
+
+    .top{
+        top: -30px;
+        
+    }
+
+.handle{
+    top: 25px;
+ border-left: 20px solid transparent
+ }
+
+ .circle {
+    left:3px;
+    width: calc(100%);
+ }
+
+ }
+
+   @media (min-width:1025px) and (max-width:1200px){
+  /*   desktops,large screens */
+   h1 {
+        color: purple;
+    }
+ }
+
+    @media (min-width:1200px) {
+  /*   desktops,large screens */
+   h1 {
+        color: red;
+    }
+ }
+
+
+@media print {
+    header, footer {
+        display:none;
+    }
+}
+
+

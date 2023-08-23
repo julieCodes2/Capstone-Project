@@ -401,18 +401,25 @@ nav ul.show{
 /*  
 MEDIA QUERIES!!! */
 @media (max-width:480px){
-    /* if a width of a device is smaller than 480px mobile devices*/
+    /* if a width of a device is smaller than 480px mobile devices; until 480 blue sya*/
     .textstyle {
         color: blue;
+        
     }
 .section-light{
         font-size: 12px;
     }
+
+ .textstyle, p {
+      text-align:left;
+ }
+
+ 
 }
 
 
   @media (min-width:481px) and (max-width:768px){
-  /*   ipads,tablets */
+  /*   ipads,tablets; pag nag 481 green na sya */
   .textstyle {
         color: green;
     }
@@ -420,9 +427,9 @@ MEDIA QUERIES!!! */
  
 
    @media (min-width:769px) and (max-width:1024px){
-  /*   small screens,laptops */
+  /*   small screens,laptops, pag nag 769 brown na sya */
   .textstyle {
-        color: orange;
+        color: brown;
     }
  }
 
@@ -433,7 +440,7 @@ MEDIA QUERIES!!! */
     }
  }
 
-    @media (min-width:1201px) {
+    @media (min-width:1200px) {
   /*   desktops,large screens */
   .textstyle {
         color: red;

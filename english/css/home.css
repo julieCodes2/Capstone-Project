@@ -395,3 +395,61 @@ nav ul.show{
         place-content: center;
     }
 }
+
+
+
+/*  
+MEDIA QUERIES!!! */
+@media (max-width:480px){
+    /* if a width of a device is smaller than 480px mobile devices; until 480 blue sya*/
+    .textstyle {
+        color: blue;
+        
+    }
+.section-light{
+        font-size: 12px;
+    }
+
+ .textstyle, p {
+      text-align:left;
+ }
+
+ 
+}
+
+
+
+  @media (min-width:481px) and (max-width:768px){
+  /*   ipads,tablets; pag nag 481 green na sya */
+  .textstyle {
+        color: green;
+    }
+}
+ 
+
+   @media (min-width:769px) and (max-width:1024px){
+  /*   small screens,laptops, pag nag 769 brown na sya */
+  .textstyle {
+        color: brown;
+    }
+ }
+
+   @media (min-width:1025px) and (max-width:1200px){
+  /*   desktops,large screens */
+  .textstyle {
+        color: purple;
+    }
+ }
+
+    @media (min-width:1200px) {
+  /*   desktops,large screens */
+  .textstyle {
+        color: red;
+    }
+ }
+
+@media print {
+    header, footer {
+        display:none;
+    }
+}
