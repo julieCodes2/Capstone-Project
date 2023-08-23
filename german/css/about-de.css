@@ -317,4 +317,7 @@ nav ul.show{
 }
 
 /* ends here */
- 
+ @media (min-width:600px){
+  /*   mobile first */
+
+ }

@@ -290,7 +290,6 @@ background-color: #ffffff;
 
 
 
-
 /* begins here */
 /* responsive for navbar*/
 @media(max-width: 1048px){
@@ -315,7 +314,6 @@ background-color: #ffffff;
 
 /* FOR SMALLER DEVICES */
 @media (max-width:909px){
-
 
     nav{
         padding-left:20px;
@@ -396,7 +394,54 @@ nav ul.show{
     }
 }
 
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
+
+
+
+
+/*  
+MEDIA QUERIES!!! */
+@media (max-width:480px){
+    /* if a width of a device is smaller than 480px mobile devices*/
+    .textstyle {
+        color: blue;
+    }
+.section-light{
+        font-size: 12px;
+    }
+}
+
+
+  @media (min-width:481px) and (max-width:768px){
+  /*   ipads,tablets */
+  .textstyle {
+        color: green;
+    }
+}
+ 
+
+   @media (min-width:769px) and (max-width:1024px){
+  /*   small screens,laptops */
+  .textstyle {
+        color: orange;
+    }
+ }
+
+   @media (min-width:1025px) and (max-width:1200px){
+  /*   desktops,large screens */
+  .textstyle {
+        color: purple;
+    }
+ }
+
+    @media (min-width:1201px) {
+  /*   desktops,large screens */
+  .textstyle {
+        color: red;
+    }
+ }
+
+@media print {
+    header, footer {
+        display:none;
+    }
 }
