@@ -126,6 +126,7 @@ section{
     background: url(../images/lights.jpg) no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
+     background-position: center;
 }
 
 
