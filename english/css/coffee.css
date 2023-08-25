@@ -1,10 +1,10 @@
 
-
-/* {
+/* 
+{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-}  */
+} */
 
 /* body{
     display:flex;
@@ -12,9 +12,11 @@
     align-items:center;
     min-height:100vh;
     background:#687d8b;
-} */
+}
+ */
 
- .text{
+
+.text{
     font-size: 40px;
     position: fixed;
     top:-200px;
@@ -22,14 +24,13 @@
     margin-left:20px;
     margin-right:0px;
   
-} 
+}
 
 
 .container
 {
     position:relative;
     top:50px;
-
 }
 
 .cup
@@ -49,9 +50,7 @@ aside{
     padding-top: 200px;
 padding-bottom:50px;
     background-color: #212B40;
-   
 }
-
 
 .top
 {
@@ -261,6 +260,7 @@ a.active,a:hover{
     color:#000;
 }
 
+
 nav #icon{
     color:white;
     font-size: 30px;
@@ -272,10 +272,19 @@ nav #icon{
 }
 
 section{
-    background: url(../images/spacex.jpg) no-repeat;
+    background: url('/german/images/wuerzburgcity.jpg') no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
 }
+
+
+
+.card-header{
+  background-color: #BFA980;
+}
+
+
+
 
 
 
@@ -296,13 +305,12 @@ section{
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-}  
+} 
 .container{
     max-width:1170px;
     margin: auto;
     padding:50px;
     padding-top:0;
- 
 }
 
 
@@ -312,15 +320,13 @@ section{
 }
 
 
-
 ul{
     list-style:none;
 
 }
 .footer{
   background-color: #212b40;
-   padding-left: 20px;
-padding-top: 20px;
+  padding: 20px 0;
 }
 .footer-col{
 width:25%;
@@ -392,9 +398,7 @@ background-color: #ffffff;
 
 .footerBottom{
     background-color: #000;
-    padding-top:30px;
-    padding-left: 0;
-    margin-left:-30px;
+    padding:20px;
     text-align: center;
 }
 .footerBottom p{
@@ -402,13 +406,15 @@ background-color: #ffffff;
 }
 
 .designer{
-    opacity: 0.9;
-  /*   text-transform: uppercase; */
+    opacity: 0.7;
+   /*  text-transform: uppercase; */
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0px 5px;
-      font-family: "Apple Chancery", cursive;
-      padding-bottom: 10px;
+  
+
+    
+    
 }
 
 
@@ -484,6 +490,9 @@ button{
 
 
 
+
+
+
 /* media queries begins here */
 /* responsive for bigger screens*/
 @media(max-width: 1048px){
@@ -492,6 +501,8 @@ button{
         padding-left:60px;
 
     } */
+
+
     
     nav ul{
         margin-right:20px;
@@ -517,8 +528,12 @@ button{
     width:100%;
 }
 
-
 }
+
+
+
+
+
 
 
 /* FOR SMALLER DEVICES*/
@@ -528,13 +543,18 @@ button{
     nav{
         padding-left: 20px;
     }
+
+    form{
+        width:95%;
+    }
+    
  nav #icon{
     display:block;
  }
 nav ul{
     position:relative;
     width:60%;
-    height: 5vh;
+    height:5vh;
     background: transparent;
     top:-50px;
     left:-80%;
@@ -544,11 +564,11 @@ nav ul{
 nav li {
     display: flex;
     margin: 20px 0;
-     line-height: 20px;
+    line-height: 20px;
      background-color: #BFA980;
 }
 nav a{
-    font-size: 14px;
+    font-size: 20px;
      color:#212b40;
     font-weight:bold;
 }
@@ -566,40 +586,60 @@ nav ul.show{
    padding:0;
 }
 .logos{
-    width:100%;
+    width:auto;
 }
+
 .cup{
-    width:100%;
+    width:70%;
 }
-
-.formcontainer{
-    width:100%;
-}
-
-
 
 .top{
     width:95%;
 }
 
-.footerBottom{
-    background-color: #000;
-    padding-top:30px;
-    padding-left: 0;
-    margin-left:-20px;
-    text-align: center;
 }
 
-section{
-    background-position:center;
-    background-image: cover;
-    
+    @media (min-width:1200px) {
+  /*   desktops,large screens */
+   h1 {
+        color: red;
+    }
+    form{
+    width:54rem;
+    gap:1rem;
 }
-.navbar-brand {
-    font-size: 14px;
-}
+h1{
+    margin-bottom:5rem;
 }
 
+button{
+    width:24rem;
+    padding:1.4rem;
+    cursor:pointer;
+    background:#212b40;
+    font-size: 24px;
+    color: white;
+}
+.formcontainer{
+    margin-top:20px;
+    padding-top: 80px;
+    margin-bottom:20px;
+    padding-bottom:20px;
+    outline:0;
+    border-bottom:20;
+    font-family: Arial, Helvetica, sans-serif;
+    display:grid;
+    place-items:center;
+    background-color: #eaecef;
+    font-size: 24px;
+}
+ }
+
+@media print {
+    header, footer {
+        display:none;
+    }
+}
 
 
 /*  
@@ -611,9 +651,7 @@ h1 {
 
     }
  
-    .cup{
-        width: 80%;
-    }
+   
 }
 
 
@@ -623,15 +661,9 @@ h1 {
   h1 {
         color: green;
     }
-     .cup{
-        width: 85%;
-    }
 
-   *{
-   width:auto;
-   padding-right:0;
-   margin-right:0;
-   }
+
+
 }
  
 
@@ -639,22 +671,15 @@ h1 {
   /*   small screens,laptops, pag nag 769 brown na sya */
    h1 {
         color: brown;
-    }
-
-    .top{
-        top: -30px;
+  
         
     }
+      .imgs{
+        padding-left: 100px;
+       height:30%;
+       width:30%;
+    }
 
-.handle{
-    top: 25px;
- border-left: 20px solid transparent
- }
-
- .circle {
-    left:3px;
-    width: calc(100%);
- }
 
  }
 
@@ -663,12 +688,27 @@ h1 {
    h1 {
         color: purple;
     }
+         section{
+      width:100%;
+       /*  height: calc(80vh); */
+           height: calc(80vh);
+    }
  }
 
     @media (min-width:1200px) {
   /*   desktops,large screens */
    h1 {
         color: red;
+    }
+      .imgs{
+        padding-left: 100px;
+       height:30%;
+       width:30%;
+    }
+                 section{
+      width:100%;
+       /*  height: calc(80vh); */
+           height: calc(80vh);
     }
  }
 
@@ -678,5 +718,6 @@ h1 {
         display:none;
     }
 }
+
 
 

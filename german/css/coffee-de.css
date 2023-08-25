@@ -272,7 +272,7 @@ nav #icon{
 }
 
 section{
-    background: url('/german/images/spacex.jpg') no-repeat;
+    background: url('/german/images/wuerzburgcity.jpg') no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
 }
@@ -406,12 +406,12 @@ background-color: #ffffff;
 }
 
 .designer{
-    opacity: 0.9;
+    opacity: 0.7;
    /*  text-transform: uppercase; */
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0px 5px;
-    font-family: "Apple Chancery", cursive;
+  
 
     
     
@@ -544,6 +544,9 @@ button{
         padding-left: 20px;
     }
 
+    form{
+        width:95%;
+    }
     
  nav #icon{
     display:block;
@@ -565,7 +568,7 @@ nav li {
      background-color: #BFA980;
 }
 nav a{
-    font-size: 14px;
+    font-size: 20px;
      color:#212b40;
     font-weight:bold;
 }
@@ -593,12 +596,156 @@ nav ul.show{
 .top{
     width:95%;
 }
+
+}
+
+    @media (min-width:1200px) {
+  /*   desktops,large screens */
+   h1 {
+        color: red;
+    }
+
+    .imgs{
+        padding-left: 100px;
+       height:30%;
+       width:30%;
+    }
+
+    
+    form{
+    width:54rem;
+    gap:1rem;
+}
+h1{
+    margin-bottom:5rem;
+}
+
+button{
+    width:24rem;
+    padding:1.4rem;
+    cursor:pointer;
+    background:#212b40;
+    font-size: 24px;
+    color: white;
+}
+.formcontainer{
+    margin-top:20px;
+    padding-top: 80px;
+    margin-bottom:20px;
+    padding-bottom:20px;
+    outline:0;
+    border-bottom:20;
+    font-family: Arial, Helvetica, sans-serif;
+    display:grid;
+    place-items:center;
+    background-color: #eaecef;
+    font-size: 24px;
+}
+ }
+
+@media print {
+    header, footer {
+        display:none;
+    }
+}
+
+@media (max-width:600px){
 section{
-    background-position: center;
+    background-position:center;
+    background-image: cover;
+    
+}
+.navbar-brand {
+    font-size: 14px;
 }
 
- .navbar-brand{
-  font-size: 14px;
+section{
+ 
+    width:40%;
+    height:40%;
+  
+
 }
 
 }
+
+
+/*  
+MEDIA QUERIES!!! */
+@media (max-width:480px){
+    /* if a width of a device is smaller than 480px mobile devices; until 480 blue sya*/
+h1 {
+        color: blue;
+
+    }
+ 
+   
+}
+
+
+
+  @media (min-width:481px) and (max-width:768px){
+  /*   ipads,tablets; pag nag 481 green na sya */
+  h1 {
+        color: green;
+    }
+
+
+
+}
+ 
+
+   @media (min-width:769px) and (max-width:1024px){
+  /*   small screens,laptops, pag nag 769 brown na sya */
+   h1 {
+        color: brown;
+  
+        
+    }
+      .imgs{
+        padding-left: 100px;
+       height:30%;
+       width:30%;
+    }
+
+
+ }
+
+   @media (min-width:1025px) and (max-width:1200px){
+  /*   desktops,large screens */
+   h1 {
+        color: purple;
+    }
+              section{
+      width:100%;
+       /*  height: calc(80vh); */
+           height: calc(80vh);
+    }
+ }
+
+    @media (min-width:1200px) {
+  /*   desktops,large screens */
+   h1 {
+        color: red;
+    }
+      .imgs{
+        padding-left: 100px;
+       height:30%;
+       width:30%;
+    }
+                 section{
+      width:100%;
+       /*  height: calc(80vh); */
+           height: calc(80vh);
+    }
+ }
+
+
+@media print {
+    header, footer {
+        display:none;
+    }
+}
+
+
+
