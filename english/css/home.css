@@ -480,7 +480,7 @@ nav ul{
 
     @media (min-width:1200px) {
   /*   desktops,large screens */
-   #attorneys {
+  /*  #attorneys {
         color: red;
     }
 
@@ -501,17 +501,20 @@ nav ul{
 
   .drpoehnertext{
     padding-top: 0;
-  }
-       section{
-      width:100%;
-       /*  height: calc(80vh); */
-           height: calc(80vh);
-    }
-                 section{
-      width:100%;
-       /*  height: calc(80vh); */
-           height: calc(80vh);
-    }
+  } */
+  
+    .textstyle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align:left;
+    padding-bottom:0;
+
+}
+
+
+
+
+
 }
 
 @media print {

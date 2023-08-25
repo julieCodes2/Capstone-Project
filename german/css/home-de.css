@@ -489,11 +489,7 @@ nav ul{
   .drpoehnertext{
     padding-top: 0;
   }
-               section{
-      width:100%;
-       /*  height: calc(80vh); */
-           height: calc(80vh);
-    }
+
 }
 
 @media print {
