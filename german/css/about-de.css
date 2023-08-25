@@ -328,7 +328,7 @@ nav ul.show{
   @media (min-width:481px) and (max-width:768px){
   /*   ipads,tablets; pag nag 481 green na sya */
   #attorneys {
-        color: green;
+        color: rgb(5, 15, 5);
     }
 
   .footer-col{
@@ -409,7 +409,7 @@ nav ul{
    @media (min-width:1025px) and (max-width:1200px){
   /*   desktops,large screens */
    #attorneys {
-        color: purple;
+        color: rgb(35, 13, 78);
     }
     .imgs{
         padding-left: 100px;
@@ -442,7 +442,7 @@ nav ul{
     @media (min-width:1200px) {
   /*   desktops,large screens */
    #attorneys {
-        color: rgb(58, 26, 121);
+        color: rgb(37, 12, 136);
     }
          section{
       width:100%;
