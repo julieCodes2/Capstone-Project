@@ -468,7 +468,7 @@ nav ul{
     width:50%;
 } */
 @media (orientation: landscape) {
-.card1,.card2,.card3{
+/* .card1,.card2,.card3{
     width:100%;
 }
 .card4{
@@ -478,8 +478,10 @@ nav ul{
         padding-left: 100px;
        height:40%;
        width:40%;
-    }
-     
+    } */
+      .card1,.card2,.card3,.card4{
+         flex-direction: row;
+}
 }
 
 
