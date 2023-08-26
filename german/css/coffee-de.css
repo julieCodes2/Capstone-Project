@@ -828,6 +828,16 @@ padding-bottom:50px;
 
 
     }
+
+ @media (orientation: landscape) {
+
+
+    .imgs{
+        padding-left: 100px;
+       height:40%;
+       width:40%;
+    }
+}
 @media print {
     header, footer {
         display:none;
