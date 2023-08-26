@@ -681,7 +681,8 @@ h1 {
     }
 nav a{
     font-size: 13px;
-  
+     color:#212b40;
+    font-weight:bold;
 }
  
    
@@ -709,8 +710,8 @@ nav a{
     }
       .imgs{
         padding-left: 100px;
-       height:30%;
-       width:30%;
+       height:40%;
+       width:40%;
     }
 
 
@@ -731,7 +732,7 @@ nav a{
     @media (min-width:1200px) {
   /*   desktops,large screens */
    h1 {
-        color: red;
+        color: rgb(63, 7, 7);
     }
       .imgs{
         padding-left: 100px;

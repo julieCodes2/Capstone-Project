@@ -580,9 +580,10 @@ h1 {
     .cup{
         width: 80%;
     }
-    nav a{
+nav a{
     font-size: 13px;
-
+     color:#212b40;
+    font-weight:bold;
 }
 }
 
@@ -593,11 +594,11 @@ h1 {
   h2 {
         color: rgb(7, 7, 70);
     }
-/* 
-    section{
-      width:100%;
-        height: calc(50vh);
-    } */
+    .imgs{
+        padding-left: 100px;
+       height:40%;
+       width:40%;
+    }
 
 
 }
@@ -614,6 +615,8 @@ h1 {
        height:30%;
        width:30%;
     }
+
+
 
  }
 
@@ -632,7 +635,7 @@ h1 {
     @media (min-width:1200px) {
   /*   desktops,large screens */
    h1 {
-        color: red;
+        color: rgb(42, 6, 6);
     }
        .imgs{
         padding-left: 100px;

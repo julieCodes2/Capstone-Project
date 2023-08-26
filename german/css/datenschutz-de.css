@@ -406,9 +406,10 @@ h5 {
     align-items: left;
     font-size: 12px;
    }
-   nav a{
+nav a{
     font-size: 13px;
-    
+     color:#212b40;
+    font-weight:bold;
 }
 }
 
@@ -432,10 +433,10 @@ h5 {
   
         
     }
-      .imgs{
+       .imgs{
         padding-left: 100px;
-       height:30%;
-       width:30%;
+       height:40%;
+       width:40%;
     }
 
 
@@ -456,7 +457,7 @@ h5 {
     @media (min-width:1200px) {
   /*   desktops,large screens */
    h1 {
-        color: red;
+        color: rgb(68, 11, 11);
     }
       .imgs{
         padding-left: 100px;

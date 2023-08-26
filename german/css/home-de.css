@@ -350,7 +350,8 @@ nav li{
 }
 nav a{
     font-size: 13px;
-   
+     color:#212b40;
+    font-weight:bold;
 }
 a.active,a:hover{
     border:none;
@@ -445,10 +446,10 @@ nav ul{
     line-height: 40px;
     background-color: #BFA980;
 }
-      .imgs{
+          .imgs{
         padding-left: 100px;
-       height:30%;
-       width:30%;
+       height:40%;
+       width:40%;
     }
  }
 
@@ -467,7 +468,7 @@ nav ul{
     @media (min-width:1200px) {
   /*   desktops,large screens */
    #attorneys {
-        color: red;
+        color: rgb(80, 16, 16);
     }
 
     .imgs{

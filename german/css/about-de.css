@@ -303,7 +303,8 @@ nav li{
 }
 nav a{
     font-size: 13px;
-  
+     color:#212b40;
+    font-weight:bold;
 }
 a.active,a:hover{
     border:none;
@@ -400,8 +401,8 @@ nav ul{
 }
       .imgs{
         padding-left: 100px;
-       height:30%;
-       width:30%;
+       height:40%;
+       width:40%;
     }
  }
 
@@ -415,28 +416,14 @@ nav ul{
        height:30%;
        width:30%;
     }
-/*     .card1, .card2,.card3{
-        width: 100%;
-    }
-.card4{
-    width:30%;
-} */
-  .card-header{
-    line-height:50px;
-  }
-  .card-text{
-    padding-top:10px;
-  }
 
-  .drpoehnertext{
-    padding-top: 0;
   }
                section{
       width:100%;
        /*  height: calc(80vh); */
            height: calc(80vh);
     }
-}
+
 
     @media (min-width:1200px) {
   /*   desktops,large screens */
@@ -472,6 +459,31 @@ nav ul{
 
 
 }
+
+/* CARD FRAU GEYER */
+/* .card-img-top{
+    width:50%;
+}
+.card-header{
+    width:50%;
+} */
+@media (orientation: landscape) {
+.card1,.card2,.card3{
+    width:100%;
+}
+.card4{
+    width:100%;
+}
+    .imgs{
+        padding-left: 100px;
+       height:40%;
+       width:40%;
+    }
+     
+}
+
+
+
 
 @media print {
     header, footer {

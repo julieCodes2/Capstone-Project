@@ -367,8 +367,9 @@ nav li{
       background-color: #BFA980;
 }
 nav a{
-    font-size: 14px;
-   
+    font-size: 13px;
+     color:#212b40;
+    font-weight:bold;
 }
 a.active,a:hover{
     border:none;
@@ -465,8 +466,8 @@ nav ul{
 }
       .imgs{
         padding-left: 100px;
-       height:30%;
-       width:30%;
+       height:40%;
+       width:40%;
     }
  }
 

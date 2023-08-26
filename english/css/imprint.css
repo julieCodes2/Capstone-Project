@@ -391,9 +391,10 @@ h1 {
         color: blue;
 
     }
- nav a{
+nav a{
     font-size: 13px;
-  
+     color:#212b40;
+    font-weight:bold;
 }
    
 }
@@ -420,10 +421,9 @@ h1 {
     }
       .imgs{
         padding-left: 100px;
-       height:30%;
-       width:30%;
+       height:40%;
+       width:40%;
     }
-
 
  }
 
