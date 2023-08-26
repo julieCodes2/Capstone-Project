@@ -328,7 +328,11 @@ h1 {
         color: blue;
 
     }
- 
+ nav a{
+    font-size: 13px;
+     color:#212b40;
+    font-weight:bold;
+}
    
 }
 
@@ -387,7 +391,7 @@ h1 {
      section{
       width:100%;
        /*  height: calc(80vh); */
-           height: calc(80vh);
+           height: calc(90vh);
     }
  }
 

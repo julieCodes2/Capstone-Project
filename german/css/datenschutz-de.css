@@ -330,7 +330,7 @@ nav li{
     background-color: #BFA980;
 }
 nav a{
-    font-size: 14px;
+    font-size: 13px;
     color:#212b40;
     font-weight:bold;
 }
@@ -394,12 +394,22 @@ margin-left:-17px;
 MEDIA QUERIES!!! */
 @media (max-width:480px){
     /* if a width of a device is smaller than 480px mobile devices; until 480 blue sya*/
-h1 {
+h5 {
         color: blue;
+        font-size: 14px;
 
     }
- 
-   
+ h6{
+    font-size:12px;
+ }
+   p{
+    align-items: left;
+    font-size: 12px;
+   }
+   nav a{
+    font-size: 13px;
+    
+}
 }
 
 

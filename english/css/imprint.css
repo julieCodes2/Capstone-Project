@@ -391,7 +391,10 @@ h1 {
         color: blue;
 
     }
- 
+ nav a{
+    font-size: 13px;
+  
+}
    
 }
 

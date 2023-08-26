@@ -302,9 +302,8 @@ nav li{
       background-color: #BFA980;
 }
 nav a{
-    font-size: 14px;
-       color:#212b40;
-    font-weight:bold;
+    font-size: 13px;
+  
 }
 a.active,a:hover{
     border:none;
@@ -447,7 +446,7 @@ nav ul{
          section{
       width:100%;
        /*  height: calc(80vh); */
-           height: calc(80vh);
+           height: calc(90vh);
     }
 
     .imgs{

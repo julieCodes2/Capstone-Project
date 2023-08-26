@@ -402,11 +402,21 @@ nav ul.show{
 MEDIA QUERIES!!! */
 @media (max-width:480px){
     /* if a width of a device is smaller than 480px mobile devices; until 480 blue sya*/
-h1 {
+h2 {
         color: blue;
 
     }
+h6{
+   font-size:12px;
+ }
+
+ p{
+    font-size: 12px;
+ }
+ nav a{
+    font-size: 13px;
  
+}
    
 }
 

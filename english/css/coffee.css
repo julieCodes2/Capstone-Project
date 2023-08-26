@@ -575,7 +575,7 @@ nav li {
      background-color: #BFA980;
 }
 nav a{
-    font-size: 20px;
+    font-size: 13px;
      color:#212b40;
     font-weight:bold;
 }
@@ -657,7 +657,10 @@ h1 {
         color: blue;
 
     }
- 
+ nav a{
+    font-size: 13px;
+
+}
    
 }
 
