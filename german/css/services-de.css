@@ -696,8 +696,10 @@ nav ul.show{
        width:40%;
     }
 }
+
+
 @media print {
-    header, footer {
+   section {
         display:none;
     }
 }

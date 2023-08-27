@@ -445,7 +445,7 @@ nav ul.show{
 }
 
 @media print {
-    header, footer {
+   section,.carousel-item,#carouselExampleAutoplaying {
         display:none;
     }
 }

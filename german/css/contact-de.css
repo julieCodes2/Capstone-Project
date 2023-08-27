@@ -479,9 +479,8 @@ nav ul.show{
     }
 }
 @media print {
-    header, footer {
+   section,.formcontainer {
         display:none;
     }
 }
-
 

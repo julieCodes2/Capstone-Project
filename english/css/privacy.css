@@ -564,7 +564,7 @@ nav ul.show{
     }
 }
 @media print {
-    header, footer {
+    section {
         display:none;
     }
 }

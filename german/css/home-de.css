@@ -538,10 +538,9 @@ nav ul.show{
        width:40%;
     }
 }
-@media print {
-    header, footer {
+/* @media print {
+    section{
         display:none;
     }
 }
-
-
+ */

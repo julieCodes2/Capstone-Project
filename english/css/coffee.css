@@ -866,10 +866,9 @@ padding-bottom:50px;
     }
 }
 @media print {
-    header, footer {
+   section,.formcontainer,.cup,.plate {
         display:none;
     }
 }
-
 
 

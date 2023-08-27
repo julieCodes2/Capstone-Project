@@ -561,10 +561,14 @@ padding-top:10px;
 }
  */
 
+
+
+ 
 @media print {
-    header, footer {
+   section,.carousel-item,#carouselExampleAutoplaying {
         display:none;
     }
 }
+
 
 
